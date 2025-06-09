@@ -80,3 +80,32 @@ Não é necessário rodar *uvicorn app.main:app --reload* — o projeto funciona
 As variáveis de ambiente devem ser configuradas no arquivo *.env*, conforme exemplo.
 
 Para Linux/MacOS, ajustar os comandos de ativação do ambiente virtual.
+
+### 🖼️ Imagens da Aplicação
+
+Aqui estão algumas capturas de tela e imagens que mostram o funcionamento do sistema WebSocket em tempo real:
+
+<p align="center">
+  <img src="assets/client1.png" alt="Aplicação Rodando" width="600" style="margin-bottom: 15px;"/>
+  <br>
+  <i>Aplicação rodando no terminal com clientes conectados</i>
+</p>
+
+<p align="center">
+  <img src="assets/ClientOff.png" alt="Aplicação Rodando" width="600" style="margin-bottom: 15px;"/>
+  <br>
+  <i>Aplicação rodando no terminal com clientes se desconectando</i>
+</p>
+
+<p align="center">
+  <img src="assets/servidor.png" alt="Clientes Conectados no Redis" width="600" style="margin-bottom: 15px;"/>
+  <br>
+  <i>Visualização dos clientes conectados no Redis </i>
+</p>
+
+<p align="center">
+  <img src="assets/servidorClientsOff.png" alt="Interface do Cliente WebSocket" width="600" />
+  <br>
+  <i>Visualização dos clientes desconectados no Redis</i>
+</p>
+
