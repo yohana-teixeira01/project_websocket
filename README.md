@@ -109,3 +109,11 @@ Aqui estão algumas capturas de tela e imagens que mostram o funcionamento do si
   <i>Visualização dos clientes desconectados no Redis</i>
 </p>
 
+### 🎧 Áudio Explicativo
+
+Para uma breve explicação sobre o funcionamento do projeto e o desafio proposto, ouça o arquivo abaixo:
+
+- [▶️ Ouvir Explicação](audio/Explicando_desafio.mp3)
+
+Basta clicar no link acima ou baixar diretamente pelo repositório.
+
