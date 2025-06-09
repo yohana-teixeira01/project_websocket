@@ -14,6 +14,16 @@ Sistema de comunicação **WebSocket** em tempo real, desenvolvido em **Python**
 
 ---
 
+## 📑 Pré-requisitos  
+
+Antes de iniciar, certifique-se de que as seguintes ferramentas estão instaladas na sua máquina:
+
+- 🐍 [**Python 3.13.3 ou superior**](https://www.python.org/downloads/release/python-3133/)
+- 🐳 [**Docker Desktop**](https://www.docker.com/products/docker-desktop)
+
+> 📌 **Importante:**  
+> Certifique-se de que o **Docker Desktop** está aberto e rodando antes de executar os comandos Docker no terminal.
+
 ## 🚀 Como Rodar a Aplicação  
 
 A aplicação usa **Docker Compose** para facilitar o setup e execução do ambiente.
@@ -51,9 +61,11 @@ Depois:
 pip install -r requirements-base.txt
 ```
 ### ⚙️ Configuração de Ambiente
+```bash
 Crie um arquivo .env na raiz do projeto com o conteúdo do .env.example.
-
+```
 ### 🐳 Subir containers com Docker
+Certifique-se de que o Docker Desktop está aberto antes de executar este comando:
 ```bash
 docker-compose up --build -d
 ```
